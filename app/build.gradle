@@ -72,32 +72,13 @@ dependencies {
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.androidx.activity.ktx
-    implementation libs.androidx.fragment.ktx
-    implementation libs.androidx.lifecycle.runtime.ktx
-    implementation libs.androidx.lifecycle.viewmodel.ktx
-    implementation libs.androidx.lifecycle.viewmodel.savedstate
-    implementation libs.androidx.savedstate
-    implementation libs.androidx.webkit
+    testImplementation libs.androidx.lifecycle.viewmodel.savedstate
     implementation libs.androidx.recyclerview
-    implementation libs.androidx.viewpager2
-    implementation libs.androidx.swiperefreshlayout
-    implementation libs.androidx.constraintlayout
     implementation libs.material
     implementation libs.kotlinx.coroutines.android
     implementation libs.mmkv
-    implementation libs.pictureselector
-    implementation libs.ucrop
-    implementation libs.photoview
-    implementation libs.glide
-    implementation libs.gsyvideoplayer
-    implementation(libs.compress.helper) {
-        // CompressHelper 1.0.5 declares its demo app's legacy support stack;
-        // the library classes themselves have no support-library references.
-        exclude group: 'com.android.support'
-    }
 
     testImplementation libs.junit
     testImplementation libs.kotlinx.coroutines.test
     androidTestImplementation libs.androidx.junit
-    androidTestImplementation libs.androidx.espresso.core
 }
