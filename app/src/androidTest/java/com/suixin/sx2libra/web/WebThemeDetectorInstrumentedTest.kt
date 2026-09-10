@@ -5,6 +5,7 @@ import android.webkit.WebViewClient
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.suixin.sx2libra.model.WebTheme
+import com.suixin.sxRnHelper.web.WebThemeDetectorTestActivity
 import java.util.Collections
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit

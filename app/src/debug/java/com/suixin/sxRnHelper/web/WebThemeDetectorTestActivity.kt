@@ -1,4 +1,4 @@
-package com.suixin.sx2libra.web
+package com.suixin.sxRnHelper.web
 
 import android.app.Activity
 import android.os.Bundle
