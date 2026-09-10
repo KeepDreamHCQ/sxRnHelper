@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/paper_card"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/paper_border"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_event_icon">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_calendar_outline" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/calendar_event_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:maxLines="2"
+                    android:textAppearance="@style/TextAppearance.Sx2libra.PaperEventTitle" />
+
+                <TextView
+                    android:id="@+id/calendar_event_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:maxLines="2"
+                    android:textAppearance="@style/TextAppearance.Sx2libra.PaperMeta" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/calendar_event_delete"
+                style="@style/Widget.Sx2libra.IconButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/calendar_event_delete_content_description"
+                android:src="@drawable/ic_delete_outline" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/calendar_event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.Sx2libra.PaperMeta" />
+
+        <TextView
+            android:id="@+id/calendar_event_reminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.Sx2libra.PaperMeta" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -22,4 +22,14 @@
     <color name="tab_selected">#FFF4F4F5</color>
     <color name="tab_unselected">#FFA1A1AA</color>
     <color name="dialog_surface">#FF1F1F23</color>
+
+    <color name="paper_card">#FF2E211B</color>
+    <color name="paper_card_warm">#FF4A2B20</color>
+    <color name="paper_border">#FF6A493A</color>
+    <color name="paper_orange">#FFFF9674</color>
+    <color name="paper_orange_dark">#FFE66A49</color>
+    <color name="paper_pink">#FFC47B8B</color>
+    <color name="paper_mustard">#FFD6A94A</color>
+    <color name="paper_teal">#FF67AD99</color>
+    <color name="paper_lilac">#FF9A89D1</color>
 </resources>

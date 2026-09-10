@@ -26,5 +26,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "sx2libra"
+rootProject.name = "sxRnHelper"
 include ':app'
